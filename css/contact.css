@@ -1,0 +1,185 @@
+body,table,div,dl,dt,dd,ul,ol,li,a,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	font-family: "San Francisco";
+	background-position:center;
+	color: black;
+}
+
+.clearFloat{
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.wpage{
+	width:970px;
+	margin:0px auto;
+	display:table;
+	text-align:center;
+}
+
+/* Nav */
+/*=============================================================================================*/
+
+nav{
+	position: absolute;
+	top: 0px;
+}
+nav ul{
+	display:inline-block;
+}
+
+nav a{
+	color: #fff;
+}
+
+nav a:hover{
+	color:#000;
+	transition:all 0.5s ease;
+}
+
+nav a:active{
+	color:#fff;
+	transition:all 5s ease;
+}
+
+.logo{
+	position:relative;
+	display:inline-block;
+	top:40px;
+	margin: 0px;
+}
+
+.navLeft, .navRight{
+	display:inline-block;
+}
+.navLeft li, .navRight li{
+	display:inline;
+	text-transform:uppercase;
+	font-weight: 500;
+	letter-spacing:2px;
+}
+
+nav .navLeft li{
+	margin-right:65px;
+}
+
+nav .navRight li{
+	margin-left:65px;
+}
+
+/* Content */
+/*=============================================================================================*/
+
+#banner{
+	background:url(../imgs/contact_banner.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:100%;
+	height:360px;
+}
+
+#map-canvas {
+   height: 400px;;
+   margin: 0px;
+   padding: 0px
+}
+
+
+.contact-form{
+    background: #fff;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+form p{
+    color: #4d4959;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.input{
+    border: none;
+    font-size: 18px;
+    padding: 0% 0.5%;
+    overflow: hidden;
+    border-bottom: 2px dotted #4d4959;
+	outline: none;
+}
+
+.name{width: 100px;}
+.company{width: 270px;}
+.phone{width: 130px;}
+.email{width: 120px;}
+.message{width: 360px;}
+
+
+#button input{
+	margin-top:40px;
+	padding:10px 20px;
+	border:none;
+	color:#fff;
+	font-size:14px;
+	letter-spacing:1px;
+	cursor:pointer;
+	transition:all 0.5s ease;
+}
+
+#button input:hover{
+	background:#4d4959;
+	border:none;
+	color:#fff;
+	
+}
+
+#button .check{
+	background:#f4a48f;
+    border: 1px solid #f4a48f;
+	margin-right:10px;
+}#button .check a{color:#FF9596;}
+
+#button .un-check{
+	background:none;
+	border:1px solid #8F8F8F;
+	margin-left:10px;
+	color:#4d4959;
+}#button a{color:#fff;}
+
+#button .check:hover,#button .un-check:hover{
+	border: 1px solid #4d4959;
+}
+
+.address{
+    background: #fff;
+    padding: 55px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.address i{
+    padding: 20px;
+    background: #4d4959;
+    color: #fff;
+    border-radius: 50%;
+    width: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.address p{
+    width: 250px;
+}
+
+.branch{
+    float: left;
+    margin-right: 110px;
+}
+
+
+#map-canvas{
+    background: gray;
+}

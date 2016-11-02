@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,table,div,dl,dt,dd,ul,ol,li,a,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	font-family: "San Francisco";
+	background-position:center;
+}
+
+.wpage-full{width: 1260px;margin:0px auto;}
+
+.wpage{
+	width:970px;
+	margin:0px auto;
+	display:table;
+	text-align:center;
+}
+
+.clearFloat{
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+#banner{
+	background-image:url(../imgs/gallery_banner.jpg);
+   display: block;
+   width: 100%;
+   height: 360px;
+   color:#fff;
+   background-position:center;
+   background-size:cover;
+}
+
+.typo{
+	text-align:center;
+	position:relative;
+	top:185px;
+}
+
+.typo h1{
+	font-size:48px;
+	letter-spacing:1px;
+	color:#FFFFFF;
+}
+.typo p{
+	font-size:14px;
+	width:650px;
+	margin:10px auto;
+	color:#FFFFFF;
+	font-weight: 350;
+}
+#filters {
+	margin-bottom: 55px;
+	margin-top:100px;
+	text-align: center;
+}
+#filters li {
+		display: -webkit-inline-box;
+	}
+#filters li span {
+  	display: block;
+  	padding: 10px 25px;
+  	text-decoration: none;
+  	color: #4d4959;
+  	cursor: pointer;
+  	font-size: 16px;
+  	font-weight: 400;
+  	text-transform: uppercase;
+}
+#filters li span.active, #filters li span:hover {
+	background: #4d4959;
+	color: #ffffff;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
+
+#gallery_item{
+    margin-bottom: 0px;
+    display: table;
+    height: auto;
+    transition: 0.5s all ease;
+}
+
+
+
+#gallery_item a:hover{
+	opacity: 0.5;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
+.gal .mix{
+	display: none;
+}
+
+.gal{
+    width: 25%;
+    float: left
+}
+
+.gal img{
+    /*width: 315px;*/
+    margin-bottom: -4px;
+}
+
+#button{
+	margin-left:610px;
+	padding-top:50px;
+	transition: 0.5s all ease;
+}
+#button a{
+	background:none;
+	border:2px solid #f4a48f;
+	color:#f4a48f;
+	padding: 8px 18px 8px 18px;
+	font-size:14px;
+	letter-spacing:1px;
+	height:35px;
+	width:110px;
+	cursor:pointer;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+#button a:hover{
+	background:#f4a48f;
+	border:2px solid #f4a48f;
+	color:#fff;
+}
+
+.gal img{
+	width:315px;}

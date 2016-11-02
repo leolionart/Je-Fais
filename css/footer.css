@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+
+/**
+ * http://applemusic.tumblr.com/
+ */
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src:url(../fonts/SFUIDisplay-Ultralight.ttf);
+  /*src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2");*/
+}
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src:url(../fonts/SFUIDisplay-Thin.ttf);
+  /*src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");*/
+}
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: normal;
+  src:url(../fonts/SFUIDisplay-Medium.ttf);
+  /*src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2");*/
+}
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src:url(../fonts/SFUIDisplay-Semibold.ttf);
+  /*src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2");*/
+}
+/** Bold */ 
+@font-face {
+  font-family: "San Francisco";
+  font-weight: bold;
+  src:url(../fonts/SFUIDisplay-Heavy.ttf);
+ /* src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2");*/
+}
+
+
+/*FONT TILE*/
+
+@font-face {
+    font-family: 'No_SevenRegular';
+    src: url('../fonts/No_SevenRegular.eot');
+    src: url('../fonts/No_SevenRegular.eot') format('embedded-opentype'),
+         url('../fonts/No_SevenRegular.woff2') format('woff2'),
+         url('../fonts/No_SevenRegular.woff') format('woff'),
+         url('../fonts/No_SevenRegular.ttf') format('truetype'),
+         url('../fonts/No_SevenRegular.svg#No_SevenRegular') format('svg');
+}
+.buttonNext, .buttonPrev{
+  border: 1px solid #c5c5c5;
+  padding: 5px 10px;
+  position: absolute;
+  display:inline-block;
+  cursor: pointer;
+  margin-top:-5px;
+    color: #c5c5c5;
+}
+
+.buttonPrev{
+  margin-left: -47px;
+}
+.buttonNext{
+    margin-left: 17px;
+}
+
+
+#brand{
+  padding-top:30px;
+  padding-bottom:30px;
+    border-top:1px solid #f1f1f1;
+    background: #fff;
+
+} #brand img{ cursor: pointer;}
+
+#brand .brand{
+  display:inline-block;
+  margin-left:30px;
+  margin-right:30px;
+}
+
+#dt-btt {
+  text-align: center;
+  position: fixed;
+  bottom: 100px;
+  right: 35px;
+  cursor: pointer;
+  display: none;
+  z-index:1000;
+    border: 1px solid #f4a48f;
+    padding: 7px 10px;
+    transition:all 0.5s ease;
+}
+
+#dt-btt:hover{
+    /*background: #F9D7CE;*/
+    opacity: 0.3;
+}
+
+
+footer{
+  width: 100%;
+  background-color: #f7f7f7;
+  color: #4d4959;
+}
+
+footer h2{
+  margin-bottom: 20px;
+}
+
+footer .info{padding: 50px 0px;}
+
+
+
+footer .about{
+  text-align: left;
+  padding: 50px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 210px;
+  float: left;
+  margin-right: 50px;
+}
+footer .about li{
+	line-height: 2;
+	font-weight: 400;
+	font-size: 12px;
+	color: #8F8F8F;
+}
+
+footer .about i{
+  color: #f4a48f;
+}
+
+footer .navigation{
+  text-align: left;
+  padding: 50px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 130px;
+  float: left;
+  margin-right: 54px;
+}
+footer .navigation li{
+	text-transform: uppercase;
+	font-size: 11px;
+	line-height: 2;
+	font-weight: 400;
+	color: #8F8F8F;
+}
+
+footer .navigation a{
+    color: #8F8F8F;
+    transition:all 0.5s ease;
+}
+footer .navigation a:hover{color: #f4a48f;}
+
+footer .tweet{
+  text-align: left;
+  padding: 50px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 250px;
+  float: left;
+  margin-right: 40px;
+  line-height:21px; 
+}
+
+footer .tweet i{color: #3dc4e7}
+footer .tweet span{font-weight: bold;}
+footer .tweet h6{font-weight: normal;font-size: 14px;color: #f4a48f}
+footer .tweet li{
+	margin-bottom: 20px;
+	color: #8F8F8F;
+	font-size: 12px;
+}
+
+footer .gallery{
+  text-align: left;
+  padding: 50px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 230px;
+  float: left; 
+}
+
+footer .gallery img{
+	margin-right:8px;
+	margin-bottom: 5px;
+    transition:all 0.5s ease;
+}
+
+footer .gallery img:hover{
+    opacity: 0.5;
+}
+
+
+.copyright{
+  background-color: #4d4959;
+  padding: 5px 0px;
+}
+.copyright p{
+  text-align: left;
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "San Francisco";
+  font-weight: normal;
+  float:left;
+}
+
+.copyright .social-icon{
+	padding:7px;
+	margin-top: 10px;
+	background:#fff;
+    color:#4d4959;
+	border-radius:50%;
+	width: 20px;
+	display: inline-block;
+	margin-left: 20px;
+	cursor:pointer;
+    transition:all 0.5s ease;
+}
+
+.copyright .social-icon:hover{
+    background: #f4a48f;
+    color: #fff;
+}
+
+.copyright .social-icon i{font-size: 14px;}
+.social-icon a{color:#4d4959; font-size:14px;}
+
+.copyright .social{ float:right}

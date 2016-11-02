@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+#container{
+}
+
+#banner{
+	background:url(../imgs/product/shopdress_banner.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:100%;
+	height:360px;
+}
+/* Columm */
+/*=========================================*/
+
+#optionDetail .optionDetail{
+    text-align: left;
+    margin-top: 55px;
+    margin-bottom: -25px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+#optionDetail button{
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+    margin: 0px;
+}
+#optionDetail .opDetail2{
+    background-color: #4F4F4F;
+    color: #fff;
+    border: 1px solid #4F4F4F;
+}
+
+#optionDetail .opDetail3{
+    border-left: none;
+}
+#optionDetail .opRight{
+    float: right;
+}
+
+#optionDetail .opLeft{
+    float: left;
+}
+
+#optionDetail .opMargin{
+    margin: 0px 10px;
+}
+
+.opColor{
+    color: #787878;
+}
+
+/* Table Main */
+/*=========================================*/
+
+.tableTD{
+	padding-top: 55px;
+    padding-right: 44px;
+    color:#4F4F4F;
+    font-size: 12px;
+    line-height: 18px;
+} .tableTD2{ padding-right: 0px;}
+
+.tableTD h3,.tableTD2 h3{ font-size: 14px; margin-top: 20px; }
+
+.tableTD button,.tableTD2 button{
+	margin-top:10px;
+	padding:10px 20px;
+	border:none;
+	color:#fff;
+	font-size:12px;
+	letter-spacing:1px;
+	height:35px;
+	width:114px;
+    background:#f4a48f;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+.tableTD button:hover,.tableTD2 button:hover{
+	background:#4d4959;
+	border:none;
+	color:#fff;
+}
+.tableTD a,.tableTD2 a{color:#fff;}
+
+
+.tableTD .product{
+    margin: 0px;
+    padding: 0px;
+}
+.tableTD .img{
+    padding: 10px;
+}
+.hoverImg {
+    padding: 115px 15px;
+    background: #fff;
+    transition:all 0.5s ease;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.hoverImg:hover{
+    opacity: 0.8;
+}
+
+.hoverImg .button{
+    padding: 10px 15px;
+    color: #787878;
+    border: 1px solid #c5c5c5;
+    background: #fff;
+    font-size: 14px;
+    display: inline-block;
+	margin-left: 5px;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+
+.hoverImg .button:hover{
+    background: #4f4f4f;
+    color: white;
+    opacity: 1;
+}
+
+
+/* Number Page Button */
+/*=========================================*/
+
+#numberPage{
+    margin-top: 20px;    
+    margin-left: 20px;
+    margin-bottom: 55px;
+}
+#numberPage .numberPageButton{
+    text-align: left;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 400;
+}
+#numberPage button{
+    margin-top:10px;
+	padding:10px 15px;
+	border: 1px solid #c5c5c5;	
+    background-color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+#numberPage a{ 
+    color:#000;
+    font-size:12px;
+    letter-spacing:1px; 
+}
+#numberPage button:hover{
+    background: #4F4F4F;
+    border: 1px solid #4f4f4f;
+    color: white;
+}
+#numberPage .numberSelect{
+    background: #4F4F4F;
+    border: 1px solid #4f4f4f;
+    color: white;
+}#numberPage .numberSelect a{ color: #fff;}
+
+/* Quang Cao */
+/*=========================================*/
+
+#QuangCao{
+    width: 970px;
+    height: 600px; 
+    color: white;  
+    line-height: 21px;
+    font-size: 14px;
+    margin-top: 55px;
+} 
+.left{
+    width: 600px;
+    height: 600px;
+    background-color: #666;
+    float: left;
+}
+.right{
+    width: 270px;
+    float: left;
+    background:url(../imgs/product/bgQC.jpg); 
+    text-align: left;
+    padding: 358px 50px 50px 50px;
+    transition:all 0.5s ease;
+}
+
+
+.qc1{
+    padding: 50px 50px 50px 150px;
+    text-align: right;
+    transition:all 0.5s ease;
+}
+.qc2{
+    padding: 50px 50px 96px 50px;
+    text-align: left;
+    transition:all 0.5s ease;
+}
+
+
+.qcText h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.qcText p{
+    margin: 10px auto;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.qc1 .qcText{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.qc2 .qcText, .right .qcText{
+    margin-bottom: 20px;
+}
+
+.qc1:hover, .qc2:hover, .right:hover{
+    opacity: 0.8;
+    background-size: cover;
+}
+
+
+
+.buttonQC{
+    padding: 10px 30px;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    transition:all 0.5s ease;
+}
+.buttonQC:hover{
+    border: 1px solid #f4a48f;
+    background-color: #f4a48f;    
+}
+
+/* Quang Cao Suit*/
+/*=========================================*/
+.ads-suit{
+    width: 100%;
+    background-image: url(../imgs/product/bgQCS.jpg); 
+    color: white;
+    padding: 100px 0px;
+    margin-top: 55px;
+} 
+
+.ads-suit h2{
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 50px;
+}

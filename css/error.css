@@ -1,0 +1,132 @@
+body,table,div,dl,dt,dd,ul,ol,li,a,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	font-family: "San Francisco";
+	background-position:center;
+	color: black;
+}
+
+.clearFloat{
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.wpage{
+	width:970px;
+	margin:0px auto;
+	display:table;
+	text-align:center;
+}
+
+/* Nav */
+/*=============================================================================================*/
+
+nav{
+	position: absolute;
+	top: 0px;
+}
+nav ul{
+	display:inline-block;
+}
+
+nav a{
+	color: #fff;
+	transition:all 0.5s ease;
+}
+
+nav a:hover{
+	color:#000;
+	
+}
+
+
+.logo{
+	position:relative;
+	display:inline-block;
+	top:40px;
+	margin: 0px;
+}
+
+.navLeft, .navRight{
+	display:inline-block;
+}
+.navLeft li, .navRight li{
+	display:inline;
+	text-transform:uppercase;
+	font-weight: 500;
+	letter-spacing:2px;
+}
+
+nav .navLeft li{
+	margin-right:65px;
+}
+
+nav .navRight li{
+	margin-left:65px;
+}
+
+/* Content */
+/*=============================================================================================*/
+
+#banner{
+	background-color: #f4a48f;
+	width:100%;
+}
+
+.textError p{
+	color: #fff;
+	line-height: 50px;
+	font-weight:200;
+	font-size:14px;
+}
+.textError h6{
+	font-size: 84px;
+	margin-bottom: 20px;
+	color: #fff;
+	line-height: 30px;
+}
+.textError{
+	margin-top: 200px;
+    color: #fff;
+    font-size: 14px;
+    font-weight:200;
+    letter-spacing: 1px;
+}
+
+#button{margin-bottom:70px;}
+
+#button button{
+	margin-top:50px;
+	padding:10px 20px;
+	border:none;
+	color:#fff;
+	font-size:14px;
+	letter-spacing:1px;
+	height:40px;
+	width:160px;
+	cursor:pointer;
+	transition:all 0.5s ease;
+}
+
+#button button:hover{
+	background:#4d4959;
+	border:none;
+	color:#fff;	
+}
+
+#button .check{
+	background:#fff;
+	margin-right:10px;
+    color:#FF9596;
+    font-weight: 400;
+}#button .check a{color:#FF9596;}
+
+#button .un-check{
+	background:none;
+	border:1px solid #fff;
+	margin-left:10px;
+	color:#fff;
+}#button a{color:#fff;}

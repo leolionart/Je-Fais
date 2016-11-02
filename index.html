@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<title>Je Fais | Home</title>	
+		<link rel="Shortcut icon" href="imgs/jefais-studio-logo.gif" type="image/gif" sizes="16x16">
+        <link href="css/index.css" rel="stylesheet" type="text/css">
+		<link href="css/footer.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/effect1.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<script src="js/jquery-1.11.1.min.js" ></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <link href="css/animate.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery.fancybox.js"></script>
+        <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+        <script src="js/jquery-smoothscroll.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+         new WOW().init();
+        </script>
+
+	</script>
+<script>
+    $(document).ready(function() {
+      $("#slider").owlCarousel({
+	  autoPlay: true,
+      navigation : true,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true
+
+      });
+    $('.fancybox').fancybox();
+        
+var owl = $("#client-says").owlCarousel({
+      navigation : true,
+      slideSpeed : 900,
+      paginationSpeed : 400,
+      singleItem : true
+      });
+ 
+  // Custom Navigation Events
+  $(".next").click(function(){
+    owl.trigger('owl.next');
+  })
+  $(".prev").click(function(){
+    owl.trigger('owl.prev');
+  })
+  $(".play").click(function(){
+    owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
+  })
+  $(".stop").click(function(){
+    owl.trigger('owl.stop');
+  })
+    });
+</script>
+</head>
+
+<body>
+<div id="ip-container" class="ip-container">
+			<!-- initial header -->
+			<header class="ip-header">
+				<h1 class="ip-logo"><a href="index.html">
+            	<img src="imgs/jefais-studio-logo.png" width="150" height="auto" class="ip-inner" /></a>
+        		</h1>
+			<div class="ip-loader">
+					<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+						<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+						<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+					</svg>
+				</div>
+			</header>
+			
+			<!-- main content -->
+	<div id="container" class="ip-main">
+		<div id="banner">
+    	<div class="wpage">
+    		<nav>
+            	<ul class="navLeft">
+                	<li><a href="_our-story.html">Our story</a></li>
+                    <li><a href="_service.html">Services</a></li>
+                    <li><a href="_shop.html">Shop</a></li>
+                </ul>
+                <div class="logo">
+                	<a href="index.html"></a>
+                </div>
+                <ul class="navRight">
+                	<li><a href="_gallery.html">Gallery</a></li>
+                    <li><a href="_blog.html">Blog</a></li>
+                    <li><a href="_contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="slider" class="owl-carousel" >
+                <div class="item" style="background: url(imgs/2.jpg)">
+                <div class="bg-overlay">&nbsp;</div>
+                	<div class="typo">
+                		<h1>Christmas Photography <h2>Contest 2015</h2></h1>
+                        <span>on December 25th 2015</span>
+                		<p>Congratulations to the following individuals who won a giveaway during our christmas photography contest 2014 winners</p>
+                        <div class="button">
+                        	<a href="flash/1.index.html"><button class="check">Checkout</button></a>
+                            <a href="#"><button class="un-check">Detail</button></a>
+                        </div>
+                    </div><!--/typo-->
+                </div>
+                <div class="item" style="background: url(imgs/1.jpg)">
+                	<div class="lefttypo typo wpage">
+                		<h1>Christmas Photography<h2>Contest 2014 Winners</h2></h1>
+                        <span>On December 25th 2014</span>
+                		<p>Congratulations to the following individuals who won a giveaway during our christmas photography contest 2014 winners</p>
+                        <div class="button">
+                        	<a href="flash/1.index.html"><button class="check">Checkout</button></a>
+                            <a href="#"><button class="un-check">Detail</button></a>
+                        </div>
+                    </div><!--/typo-->
+                </div>
+                <div class="item" style="background: url(imgs/3.jpg)">
+                	<div class=" typo">
+                		<h1>Ross Tran & Yang Hee</h1>
+                        <span>on October 18th 2015, Los Angeles, CA</span>
+                		<p>Happy Moments, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 					labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <div class="button">
+                        	<a href="subpage/_gallery_real.html"><button class="check">Checkout</button></a>
+                            <a href="#"><button class="un-check">Detail</button></a>
+                        </div>
+                    </div><!--/typo-->
+                </div>
+                 <div class="item" style="background: url(imgs/4.jpg)">
+                	<div class=" typo">
+                		<h1>Danny & Jane</h1>
+                        <span>on January 24th 2015, Hawaii, US</span>
+                		<p>Happy Moments, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 					labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <div class="button">
+                        	<a href="subpage/_gallery_prj1.html"><button class="check">Checkout</button></a>
+                            <a href="#"><button class="un-check">Detail</button></a>
+                        </div>
+                    </div><!--/typo-->
+                </div>
+                 <div class="item" style="background: url(imgs/5.jpg)">
+                	<div class=" typo">
+                		<h1>Peter & Christine</h1>
+                        <span>on August 19th 2015, Los Angeles, CA</span>
+                		<p>Happy Moments, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 					labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <div class="button">
+                        	<a href="subpage/_gallery_real.html"><button class="check">Checkout</button></a>
+                            <a href="#"><button class="un-check">Detail</button></a>
+                        </div>
+                    </div><!--/typo-->
+                </div>
+                 <div class="item" style="background: url(imgs/6.jpg)">
+                	<div class=" typo">
+                		<h1>Jone & Katy</h1>
+                        <span>on May 3th 2015, Los Angeles, CA</span>
+                		<p>Happy Moments, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 					labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        <div class="button">
+                        	<a href="subpage/_gallery_real.html"><button class="check">Checkout</button></a>
+                            <a href="#"><button class="un-check">Detail</button></a>
+                        </div>
+                    </div><!--/typo-->
+                </div>
+        </div><!--end of slide-->
+    </div><!--end of banner-->
+    
+        <div class="weDo">
+            <div class="wpage">
+            	<div class="tile">
+            		<a href="_service.html"><h1>What We Do</h1></a>
+                    <div class="element"><img src="imgs/element.png"/></div>
+                    <p>Even if you have a limited time to make your decisions, Je Fais will organize and handle with creative ideas the finest  possibilities that are most suiting to complete your wedding perfectly. </p>
+                </div><!--end of tile-->
+            <div class="service">
+            	<div class="deco">
+                    <a href="subpage/_service-decor.html">
+                	<div class="img-icon wow bounceIn" style="background:url(imgs/index-deco.png)">
+                    	<div class="img-over"><i class="fa fa-cutlery circle"></i></div>  	
+                    </div><!--/img-over-->
+                    </a>
+                    <h2>DECORATION</h2>
+                    <p>The destination for creating your dream wedding on a budget.</p>
+            	</div><!--end of deco-->
+                <div class="dress">
+                    <a href="subpage/_service-dress.html">
+            		<div class="img-icon wow bounceIn" style="background:url(imgs/index-dress.png)">
+                    	<div class="img-over"><i class="fa fa-black-tie circle"></i></div>  	
+                    </div><!--/img-over-->
+                    </a>
+                    <h2>WEDDING DRESS</h2>
+                    <p>Selecting the perfect gown to make your dreams come true.</p>
+            	</div><!--end of dress-->
+                <div class="cakes">
+                    <a href="subpage/_service-makeup.html">
+            		<div class="img-icon wow bounceIn"  style="background:url(imgs/index-makeup.png)">
+                    	<div class="img-over"><i class="fa fa-magic circle"></i></div>  	
+                    </div><!--/img-over-->
+                    </a>
+                    <h2>MAKEUP</h2>
+                    <p>Did you hire a hair/makeup artist for your wedding?</p>
+            	</div><!--end of cakes-->
+                <div class="photo">
+                    <a href="subpage/_service-photo.html" >
+            		<div class="img-icon wow bounceIn" style="background:url(imgs/index-photo.png)">
+                    	<div class="img-over"><i class="fa fa-camera circle"></i></div>  	
+                    </div><!--/img-over-->
+                    </a>
+                    <h2>PHOTO &amp; VIDEO</h2>
+                    <p>Natural documentary wedding photography for love.</p>
+            	</div><!--end of photo-->
+            </div><!--end of service-->
+            </div>
+        </div><!--end of weDo-->
+            
+        <div class="client">
+                <div id="client-says" class="owl-carousel wpage">
+        		  <div class="item">
+                     <img src="imgs/index-client-ava.png">
+                     <div class="quote-user">
+                        <p>Husband- Two days before the wedding, I was headed to the airport to catch a flight to New Orleans I was running late so by time I arrive at the gate my flight began boarding. I went to checkout counter to make sure they haven’t called my boarding number yet. All of sudden! the lady behind the counter informs me there are no more seats left due to overcrowding and I will have to get on the next flight which will be Saturday morning. When the manager approach me,” I demanded I get on this flight because I’m getting married this weekend! She started snickering at me as if she wasn’t taking me seriously. I said, ” What’s so funny”? She replied, “surprise!” Your on new pilot reality show called ” I almost missed my flight”! airing on Bravo. </p>
+                        <b>Peter & Christine</b>
+                    </div>
+                  </div>  
+                  <div class="item">
+                     <img src="imgs/index-client-ava2.png">
+                     <div class="quote-user">
+                        <p>It was the perfect day. We chose a small wedding so that we could really celebrate with those we wanted too. The funniest part…our 2-year-old using my wedding dress as a slip-n-slide during the wedding ceremony. At one point, I looked over at him and he had the ring bearer’s pillow in his mouth, like a dog, swinging it around. I was worried he would be really distracting, but it only made the day more memorable. My husband put all our wedding songs to video to be played at the ceremony and it was beautiful. I was also able to sing the song “When God Made You” to my husband without crying! Absolutely the best day of my life and the greatest blessing God has given me, is my husband!</p>
+                        <b>John & Jenni</b>
+                    </div>
+                  </div>
+                  <div class="item">
+                     <img src="imgs/index-client-ava3.png">
+                     <div class="quote-user">
+                        <p>We don’t have a funny story as a married couple. It does however share the gospel in raw form. We met at a nightclub, months later found out we were expecting a baby, and 3 months after he was born, we eloped. I, Adriana, was raised as a teenager in church and I knew what God’s word said, so I was feeling very guilty living in sin. So, I did what I thought was best to do to “fix it” by pushing Jose to marry me and make things better. Jose was very anti Jesus back then. He despised anything to do with it. However, God did get a hold of us at our 3 year mark in our relationship. I, Adriana, surrendered my life to Christ. Jose had started going to church but didn’t exactly surrender to Christ. </p>
+                        <b>Tom & Harry</b>
+                    </div>
+                  </div>
+                  <div class="item">
+                     <img src="imgs/index-client-ava4.png">
+                     <div class="quote-user">
+                        <p>I was planning to sing prior to the reading of our vows to each other, however, I wound up singing my bride down the aisle. A last minute change forced the issue. The original person slated to sing while Christina walked down the aisle was stuck in traffic and unable to make the ceremony. We improvised, although my wife did not know anything was wrong. That was until the doors of the church opened and she started to see me singing to her as her father walked her between the pews. Thinking I’d changed the plans on her, she was a bit confused, and later told me she was thinking I had made this alteration to the program. But she forgave me when I wooed her to my rendition of Jimmy Needham’s song “Light Of Day”.</p>
+                        <b>Naz & Lucy</b>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="customNavigation">
+                    <a class="btn prev"><i class="fa fa-angle-left"></i></a>
+                    <a class="btn next"><i class="fa fa-angle-right"></i></a>
+                </div>
+            <div>
+            	<video id="video_background" preload="auto" autoplay loop muted volume="0">
+            	<!--<source src="videos/video.webm" type="video/webm"/>-->
+            	<source src="videos/video.mp4" type="video/mp4"/>
+    			</video>
+            </div>
+        </div><!--end of client-->
+        
+        <div class="reWork">
+        	<div class="wpage">
+            	<div class="tile">
+                    <a href="_gallery.html"><h1>Recent Works</h1></a>
+                    <div class="element"><img src="imgs/element.png"/></div>
+                    <p>Even if you have a limited time to make your decisions,Je Fais will organize and handle with creative ideas the finest  possibilities that are most suiting to complete your wedding perfectly. </p>
+                </div><!--end of tile-->
+            </div>
+            
+            <div id="our-project" class="wpage-full">
+            	<div class="gal">
+                    <div class="project" style="background:url(imgs/gallery/gallery_decor_11.jpg)" >
+                        <div class="img-over">
+                        	<ul class="social">
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-search"></i></li></a>
+                				<a href="subpage/_gallery_video.html"><li class="social-icon">
+                                	<i class="fa fa-link"></i></li></a>
+    						</ul>
+                        	<h3>Jone & Katy</h3>
+                            <p>24 - 5 - 2015</p>
+                    	</div><!--/img-over-->
+                    </div>
+                    <div class="project" style="background:url(imgs/gallery/gallery_prj_09.jpg)">
+                        <div class="img-over">
+                        	<ul class="social">
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-search"></i></li></a>
+                				<a href="subpage/_gallery_prj1.html"><li class="social-icon">
+                                	<i class="fa fa-link"></i></li></a>
+    						</ul>
+                        	<h3>Liz & Mike</h3>
+                            <p>24 - 5 - 2015</p>
+                    	</div><!--/img-over-->
+                    </div>
+                </div>
+                <div class="gal gal-long">
+                    <div class="project" style="background:url(imgs/gallery/gallery_prj_01.jpg)" >
+                        <div class="img-over">
+                        	<ul class="social">
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-search"></i></li></a>
+                				<a href="subpage/_gallery_prj1.html"><li class="social-icon">
+                                	<i class="fa fa-link"></i></li></a>
+    						</ul>
+                        	<h3>Liz & Mike</h3>
+                            <p>24 - 5 - 2015</p>
+                    	</div><!--/img-over-->
+                    </div>
+                </div>
+                <div class="gal">
+                
+                <div class="project" style="background:url(imgs/gallery/gallery_prj2_36.jpg)">
+                        <div class="img-over">
+                        	<ul class="social">
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-search"></i></li></a>
+                				<a href="subpage/_gallery_prj2.html"><li class="social-icon">
+                                	<i class="fa fa-link"></i></li></a>
+    						</ul>
+                        	<h3>Matthew & Scott</h3>
+                            <p>21 - 8 - 2015</p>
+                    	</div><!--/img-over-->
+                    </div>
+                    <div class="project" style="background:url(imgs/gallery/gallery_flower_09.jpg)">
+                        <div class="img-over">
+                        	<ul class="social">
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-search"></i></li></a>
+                				<a href="subpage/_gallery_flower.html"><li class="social-icon">
+                                	<i class="fa fa-link"></i></li></a>
+    						</ul>
+                        	<h3>Danny & Jane</h3>
+                            <p>21 - 8 - 2015</p>
+                    	</div><!--/img-over-->
+                    </div>
+                </div>
+                <div class="gal">
+                    <div class="project" style="background:url(imgs/gallery/gallery_decor_17.jpg)">
+                        <div class="img-over">
+                        	<ul class="social">
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-search"></i></li></a>
+                				<a href="subpage/_gallery_decor.html"><li class="social-icon">
+                                	<i class="fa fa-link"></i></li></a>
+    						</ul>
+                        	<h3>John & Jenny</h3>
+                            <p>21 - 8 - 2015</p>
+                    	</div><!--/img-over-->
+                    </div>
+                                 
+                    
+                    <div class="project" style="background:url(imgs/gallery/gallery_real_09.jpg)">
+                        <div class="img-over">
+                        	<ul class="social">
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-search"></i></li></a>
+                				<a href="subpage/_gallery_real.html"><li class="social-icon">
+                                	<i class="fa fa-link"></i></li></a>
+    						</ul>
+                        	<h3>Peter & Christine</h3>
+                            <p>21 - 8 - 2015</p>
+                    	</div><!--/img-over-->
+                    </div>       
+                    
+                    
+                </div>
+            </div>
+          <div class="clearFloat"></div>  
+        </div><!--end of reWork-->
+            
+        <div class="blog">
+        	<div class="wpage">
+            	<div class="tile">
+                    <a href="_blog.html"><h1>Latest Form Blog</h1></a>
+                    <div class="element"><img src="imgs/element.png"/></div>
+                    <p>Even if you have a limited time to make your decisions,Je Fais will organize and handle with creative ideas the finest  possibilities that are most suiting to complete your wedding perfectly. </p>
+                </div><!--end of tile-->
+                
+                <div>
+                    <div class="left-post">
+                        <a href="_blog.html">
+                        <div class="bloghover">
+                        <div class="blog1 wow fadeInLeft" data-wow-delay="0.2s">
+                            <div class="img-blog">
+                                <div class="icon-blog">
+                                <p class="share"><i class="fa fa-share-alt">&nbsp;&nbsp;</i>23</p>
+                                <p class="com"><i class="fa fa-comment">&nbsp;&nbsp;</i>5</p>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3>Let’s Elope!</h3>
+                                <div class="date">
+                                 <i class="fa fa-user">&nbsp;&nbsp;</i><span>by Laura Downs</span>
+                                    <span>&nbsp;&#45;&nbsp;</span>
+                                 <i class="fa fa-calendar">&nbsp;&nbsp;</i><span>September 20, 2015</span>
+                                </div>
+                                <p> The wedding planning process can bring out the best  – and the worst in people. Sometimes you may feel like throwing in the towel, forgetting about the whole wedding thing and running away together....</p>
+                            </div>
+                        </div><!--/blog1-->
+                        </div><!--blog hover-->
+                        </a>
+
+                        <a href="_blog.html">
+                        <div class="bloghover">
+                        <div class="blog1 no-img wow fadeInLeft" data-wow-delay="0.2s">
+                            <div class="text">
+                                <h3>The Day We Meet</h3>
+                                <div class="date">
+                                 <i class="fa fa-user">&nbsp;&nbsp;</i><span>by Lucy</span>
+                                    <span>&nbsp;&#45;&nbsp;</span>
+                                 <i class="fa fa-calendar">&nbsp;&nbsp;</i><span>August 25,2015</span>
+                                </div>
+                                <p>I can still remember the day we met.</p>
+                            <p >I was twenty-two and had just finished my last year in college before starting graduate school.&nbsp; It was a beautiful June day and I was sitting in the park that I used to go to as a kid almost every week.&nbsp;....</p>
+                            </div>
+                        </div><!--/blog1-->
+                        </div>
+                        </a>
+
+                        <a href="_blog.html">
+                        <div class="bloghover">
+                        <div class="blog1 no-img wow fadeInLeft" data-wow-delay="0.2s">
+                            <iframe width="100%" height="120" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/144131960&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                        </div><!--/blog1-->
+                        </div>
+                        </a>
+                    </div><!--/leftCol-->
+                    
+                    <div class="time-line">
+                        <p class="time3">September 2015</p>
+                        <p class="time2">August 2015</p>
+                        <p class="time1">July 2015</p>
+                        <button class="read-bt"><a href="_blog.html">Read more</button></a>
+                    </div><!--/timeLine-->
+                    
+                    <div class="right-post">
+                        <a href="_blog.html">
+                        <div class="bloghover">
+                        <div class="blog1 wow fadeInRight" data-wow-delay="0.2s" href="_blog.html">
+                            <iframe src="https://player.vimeo.com/video/14220611?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="220" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <div class="text">
+                                <h3>Wedding Preview: Noah and Rachael</h3>
+                                <div class="date">
+                                     <i class="fa fa-user">&nbsp;&nbsp;</i><span>from The Cana Family</span>
+                                    <span>&nbsp;&#45;&nbsp;</span>
+                                 <i class="fa fa-calendar">&nbsp;&nbsp;</i><span>September 2,2015</span>
+                                </div>
+                                <p> From the beginning we knew this was going to be an epic wedding and were so stoked to be filming...</p>
+                            </div>
+                        </div><!--/blog1-->
+                        </div>
+                        </a>
+
+                        
+                        <div class="bloghover">
+                        <div class="blog1 no-img wow fadeInRight" data-wow-delay="0.2s" href="_gallery_prj1.html">
+                            <div class="link-blog"><p> <span style="font-weight:bold;">Laura explains</span> : My style is very editorial but not stuffy or stiff. In the end, my clients want to remember their details and decor, have a selection of nice portraits, and get a whole lot great candids.<i class="fa fa-link" style="font-size:24px; float:right; margin:20px 0px"></i></p></div>    
+                            <div class="text" href="_blog.html">
+                                <h3>Meet LA's Laura Ford Photography!</h3>
+                                <div class="date">
+                                 <i class="fa fa-user">&nbsp;&nbsp;</i><span>by Hami</span>
+                                    <span>&nbsp;&#45;&nbsp;</span>
+                                 <i class="fa fa-calendar">&nbsp;&nbsp;</i><span>August 7,2015</span>
+                                </div>
+                            </div>
+                        </div><!--/blog1-->
+                        </div>
+                        </a>
+                    </div><!--/rightCol-->
+                </div>
+            </div>
+        </div><!--end of blog-->
+            
+        <div class="team">
+        	<div class="wpage">
+            	<div class="tile">
+                    <a href="_our-story.html"><h1>Meet Our Team</h1></a>
+                    <div class="element"><img src="imgs/element.png"/></div>
+                    <p>Even if you have a limited time to make your decisions,Je Fais will organize and handle with creative ideas the finest  possibilities that are most suiting to complete your wedding perfectly. </p>
+                </div><!--end of tile-->
+				<div id="picTeam" class="wpage-full">                                 <div class="member mem2">
+                    	<div class="img-over">
+                        	<ul class="social">
+    							<a href="#" target="_blank">
+                                	<li class="social-icon"><i class="fa fa-twitter"></i></li></a>
+                				<a href="http://fb.com/yen.duong.18294053" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-facebook"></i></li></a>
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-behance"></i></li></a>
+    						</ul>
+                        	<h3>Yang Yan</h3>
+                            <p>Team leader</p>
+                    	</div><!--/img-over-->
+                    </div>
+                    <div class="member mem3">
+                    	<div class="img-over">
+                        	<ul class="social">
+    							<a href="#" target="_blank">
+                                	<li class="social-icon"><i class="fa fa-twitter"></i></li></a>
+                				<a href="http://fb.com/hami.blood" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-facebook"></i></li></a>
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-behance"></i></li></a>
+    						</ul>
+                        	<h3>Yun Qiong </h3>
+                            <p>Designer</p>
+                    	</div><!--/img-over-->
+                    </div>
+                    <div class="member mem1">
+                    	<div class="img-over">
+                        	<ul class="social">
+    							<a href="#" target="_blank">
+                                	<li class="social-icon"><i class="fa fa-twitter"></i></li></a>
+                				<a href="http://fb.com/persistnendure77" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-facebook"></i></li></a>
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-behance"></i></li></a>
+    						</ul>
+                        	<h3>Harry Nguyen</h3>
+                            <p>Photographer</p>
+                    	</div><!--/img-over-->
+                    </div>
+                    <div class="member mem4">
+                    	<div class="img-over">
+                        	<ul class="social">
+    							<a href="#" target="_blank">
+                                	<li class="social-icon"><i class="fa fa-twitter"></i></li></a>
+                				<a href="http://fb.com/hao.maianh.5" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-facebook"></i></li></a>
+                				<a href="#" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-behance"></i></li></a>
+    						</ul>
+                        	<h3>Hao Mai Anh</h3>
+                            <p>Animator</p>
+                    	</div><!--/img-over-->
+                    </div>
+                    <div class="member mem5">
+                    	<div class="img-over">
+                            <ul class="social">
+    							<a href="https://twitter.com/QuangAi" target="_blank">
+                                	<li class="social-icon"><i class="fa fa-twitter"></i></li></a>
+                				<a href="http://fb.com/artleolion" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-facebook"></i></li></a>
+                				<a href="http://be.net/LeoLionArt" target="_blank"><li class="social-icon">
+                                	<i class="fa fa-behance"></i></li></a>
+    						</ul>
+                            <h3>Leo Lion</h3>
+                            <p>Designer</p>
+                    	</div><!--/img-over-->
+                    </div>
+                </div><!-- End of picTeam -->
+            </div>
+        </div><!--end of team-->
+            
+        <div class="follow">
+        	<div class="wpage">
+            	<img src="imgs/jefais-studio-logo.gif" width="100" height="auto" class="logo-color"/>
+                <p><i style="font-weight:200">Stay on the saddle!</i></p>
+                <div class="input-form">
+                	<form>
+                	<input type="email" placeholder="enter your email..." required="required" class="input-email">
+                	<input type="submit" name="submit" class="submit-bt">
+                    </form>
+                </div>
+            </div>
+        </div><!--end of follow-->
+        
+        <div id="brand">
+		<div class="wpage">
+			<div class="buttonPrev"><i class="fa fa-angle-left"></i></div>
+			<img class="brand" src="imgs/footerlogo_1.png"/>
+			<img class="brand" src="imgs/footerlogo_2.png"/>
+			<img class="brand" src="imgs/footerlogo_3.png"/>
+			<img class="brand" src="imgs/footerlogo_4.png"/>			
+			<img class="brand" src="imgs/footerlogo_5.png"/>
+			<div class="buttonNext"><i class="fa fa-angle-right"></i></div>
+		</div>	        
+	</div><!--end of brand-->
+        
+    <footer>
+    	<div class="info wpage">
+    		<div class="about">
+    		<h2>About</h2>
+    		<ul>
+    			<li><i class="fa fa-map-marker">&nbsp;&nbsp;&nbsp;</i>No 237 Eque Porro St. Quisquam, 
+				United State, NP 120388</li>
+				<li><i class="fa fa-phone">&nbsp;&nbsp;&nbsp;</i>+1234 567 890</li>
+				<li><i class="fa fa-envelope">&nbsp;&nbsp;&nbsp;</i>info@jefais.com</li>
+				<li><i class="fa fa-globe">&nbsp;&nbsp;&nbsp;</i>www.jefais.com</li>
+    		</ul>
+    		</div><!--end of about-->
+    		<div class="navigation">
+    			<h2>Menu</h2>
+    			<ul>
+    				<li><a href="index.html" style="color: #f4a48f">Home</a></li>
+    				<li><a href="_our-story.html">Our Story</a></li>
+    				<li><a href="_service.html">Services</a></li>
+    				<li><a href="_shop.html">Shop</a></li>
+    				<li><a href="_gallery.html">Gallery</a></li>
+    				<li><a href="_blog.html">Blog</a></li>
+    				<li><a href="_contact.html">Contact</a></li>
+    			</ul>
+    		</div><!--end of navigation-->
+    		<div class="tweet">
+    			<h2>Tweet</h2>
+    			<ul>
+    				<li><i class="fa fa-twitter">&nbsp;&nbsp;&nbsp;</i><span>Porroquia:</span> Hi I love your work!! So beautiful! @jefais <br/> 
+                    <h6>5 hours ago</h6></li>
+                    <li><i class="fa fa-twitter">&nbsp;&nbsp;&nbsp;</i><span>Nazgriel:</span> Btw I love your works! They are so beautiful thank you so much ~ @jefais<br/>
+                    <h6>6 hours ago</h6></li>
+    			</ul>
+    		</div><!--end of tweet-->
+            <div class="gallery">
+            	<h2>Galleries</h2>
+            	<table>
+              <tbody>
+                <tr>
+                  <td><a href="#"><img src="imgs/index-work.jpg"/></a></td>
+                  <td><a href="#"><img src="imgs/index-work2.jpg"/></a></td>
+                  <td><a href="#"><img src="imgs/index-work3.jpg"/></a></td>
+                  <td><a href="#"><img src="imgs/index-work4.jpg"/></a></td>
+                </tr>
+                <tr>
+                  <td><a href="#"><img src="imgs/index-work5.jpg"/></a></td>
+                  <td><a href="#"><img src="imgs/index-work6.jpg"/></a></td>
+                  <td><a href="#"><img src="imgs/index-work7.jpg"/></a></td>
+                  <td><a href="#"><img src="imgs/index-work8.jpg"/></a></td>
+                </tr>
+              </tbody>
+            </table>
+			</div><!--/galley-->
+            </div><!--end of info-->
+    	<div class="copyright">
+    		<div class="wpage">
+    		<p>© 2015 All Rights Reserved - Designed by LẦy team</p>
+    		<ul class="social">
+    			<a href="#"><li class="social-icon"><i class="fa fa-twitter"></i></li></a>
+                <a href="#"><li class="social-icon"><i class="fa fa-facebook"></i></li></a>
+                <a href="#"><li class="social-icon"><i class="fa fa-dribbble"></i></li></a>
+                <a href="#"><li class="social-icon"><i class="fa fa-behance"></i></li></a>
+    		</ul>
+    		</div>
+    		</div><!--end of copyright-->
+    </footer>
+	<div id="dt-btt"><img src="imgs/go-top.png" /></div>
+</div><!-- /main -->
+</div><!-- /container -->
+<script src="js/classie.js"></script>
+<script src="js/pathLoader.js"></script>
+<script src="js/main.js"></script>
+<script type='text/javascript'>
+	$(function(){
+	$(window).scroll(function(){if($(this).scrollTop()!=0){$('#dt-btt').fadeIn();}else{$('#dt-btt').fadeOut();}});
+	$('#dt-btt').click(function(){$('body,html').animate({scrollTop:0},800);});
+	});
+</script> 
+</body>
+</html>

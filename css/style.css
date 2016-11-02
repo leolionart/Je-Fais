@@ -1,0 +1,35 @@
+
+/*--product-starts-*/
+.product-top{
+	text-align:center;
+}
+
+.product-left span {
+  	font-size: 14px;
+  	font-weight: 700;
+  	color: #555555;
+  	letter-spacing: 1px;
+}
+.product-left h4 {
+  	color: #222222;
+  	font-size: 1.5em;
+  	font-weight: 600;
+  	margin: 11px 0 0 0;
+  	letter-spacing: 1px;
+}
+.product-left p {
+  	color: #333333;
+  	font-size: 16px;
+  	font-weight: 600;
+  	padding: 0 9%;
+  	margin-top: 7%;
+  	line-height: 1.8em;
+}
+.product-left {
+  	margin-top: 7.5%;
+}
+
+.product-top{
+	margin-top:3.5em;
+}
+/*--product-ends-*/

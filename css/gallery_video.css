@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,table,div,dl,dt,dd,ul,ol,li,a,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	font-family: "San Francisco";
+	background-position:center;
+    transition:all 0.5s ease;
+}
+
+.wpage{
+	width:970px;
+	margin:0px auto;
+	display:table;
+	text-align:center;
+}
+
+.clearFloat{
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+#banner{
+	background-image:url(../imgs/Service_banner.jpg);
+   display: block;
+   width: 100%;
+   height: 360px;
+   color:#fff;
+   background-position:center;
+   background-size:cover;
+}
+
+.typo{
+	text-align:center;
+	position:relative;
+	top:185px;
+}
+
+.typo h1{
+	font-size:48px;
+	letter-spacing:1px;
+	color:#FFFFFF;
+}
+.typo p{
+	font-size:14px;
+	width:650px;
+	margin:10px auto;
+	color:#FFFFFF;
+	font-weight: 350;
+}
+
+#clip{
+	float:left;
+	margin-right:50px;}
+	
+.video{
+	margin-top:100px;
+}
+
+.text {
+	text-align:left;
+}
+
+.text h3 {
+	font-size: 30px;
+	color: #4d4959;
+}
+.text p {
+	font-size: 14px;
+	margin-bottom:10px;
+	color: #4d4959;
+	line-height: 25px;
+	margin-top:20px;
+}
+
+.text span{
+	font-size:12px;
+	color:#8F8F8F;
+	font-weight:normal;
+	margin-left:150px;
+
+	}
+	
+.text div{
+	font-size:14px;
+	color:#8F8F8F;
+	font-weight:normal;	
+	margin-top:10px;
+}
+
+.moreVideo{
+	margin-top:50px;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+}

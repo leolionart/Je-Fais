@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,table,div,dl,dt,dd,ul,ol,li,a,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	font-family: "San Francisco";
+	background-position:center;
+}
+
+.wpage{
+	width:970px;
+	margin:0px auto;
+	display:table;
+	text-align:center;
+}
+
+.clearFloat{
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+#banner{
+	background-image:url(../imgs/product/accessories/shopcake_banner.jpg);
+   display: block;
+   width: 100%;
+   height: 360px;
+   color:#fff;
+   background-position:center;
+   background-size:cover;
+}
+
+.typo{
+	text-align:center;
+	position:relative;
+	top:185px;
+}
+
+.typo h1{
+	font-size:48px;
+	letter-spacing:1px;
+	color:#FFFFFF;
+}
+.typo p{
+	font-size:14px;
+	width:650px;
+	margin:10px auto;
+	color:#FFFFFF;
+	font-weight: 350;
+}
+
+
+/*CONTAINER*/
+/*=========================================*/
+
+.tile-sug h3{
+	text-align:left;
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-size: 18px;
+  padding-top: 2px;
+  margin-bottom: 25px;
+	text-transform:uppercase;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 20px;
+}
+
+hr{border:1px solid #f1f1f1;} 
+
+.product{
+	margin-top:50px;
+    color: #4d4959;
+    margin-bottom: 55px;
+}
+
+.product p{color: #4d4959;}
+
+
+.picReview{
+  width: 375px;
+  height: 563px;
+  float: left;
+}
+
+/*Content*/
+/*=========================================*/ 
+
+.detail{
+	margin-left:30px;
+    width: 385px;
+    float: left;
+	text-align:left;
+}
+
+.tile-product h3{
+	font-size:24px;
+	font-weight:bold;
+	text-transform:uppercase;
+    margin-bottom: 10px;
+}
+
+.tile-product p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.product .price{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+
+.row1{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px;
+}
+
+.row2{
+    margin-top: 10px;
+    height: 80px;
+}
+
+.row3{
+    margin-top: 30px;
+    height: 100px;
+}
+
+.option{
+    float: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.input{
+	margin-top:20px;
+    margin-bottom: 20px;
+	padding:10px 20px;
+	border:1px solid #e2e2e2;
+    width: 180px;
+}
+
+
+.check-box{
+    float: left;
+    width: 148px;
+    font-size: 14px;
+    line-height: 27px;
+    margin-top: 15px;
+}
+
+.date{
+    float: left;
+    width: 170px;
+}
+
+.submit{
+    clear: both;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+.detail form{
+    margin-bottom: 30px;
+}
+
+
+
+.order-bt{
+	margin-top:20px;
+	padding:10px 20px;
+	border:none;
+	color:#fff;
+	font-size:12px;
+	letter-spacing:1px;
+	height:35px;
+	width:114px;
+    background:#f4a48f;
+    cursor: pointer;
+}
+
+.order-bt:hover{
+	background:#4d4959;
+	border:none;
+	color:#fff;
+	transition:all 0.5s ease;
+}
+
+
+.suggest{
+    padding-bottom: 55px;
+}
+
+
+/* Info Product */
+/*=========================================*/
+
+.textPrev{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+.re-next{
+  margin-left: 30px;
+  width: 150px;
+  float: left;
+}
+.re-next-pic{
+  width: 150px;
+  height: 225px;
+  margin-bottom: 20px;
+
+}
+.hoverImg {
+    width: 130px;
+    height: 205px;
+    margin:10px 10px;
+    background: #fff;
+    transition:all 0.5s ease;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    float: left;
+}
+
+.hoverImg:hover{
+    opacity: 0.8;
+}
+
+.hoverImg .button{
+    padding: 10px 15px;
+    color: #787878;
+    border: 1px solid #c5c5c5;
+    background: #fff;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+
+.hoverImgButton{
+    padding: 10px 15px;
+    color: #787878;
+    border: 1px solid #c5c5c5;
+    background: #fff;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    transition:all 0.5s ease;
+    margin-top: 60%;
+}
+.hoverImgButton:hover{
+    background: #4f4f4f;
+    color: white;
+    opacity: 1;
+}
